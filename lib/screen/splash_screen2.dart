@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:uts_mobiledev/screen/splash_screen2.dart';
+import 'package:uts_mobiledev/screen/splash_screen3.dart';
 
 class SplashScreen2 extends StatelessWidget {
   const SplashScreen2({super.key});
@@ -19,14 +19,14 @@ class SplashScreen2 extends StatelessWidget {
                 shape: BoxShape.circle,
                 color: Colors.pink,
                 image: DecorationImage(
-                  image: AssetImage('assets/images/splash1.png'),
+                  image: AssetImage('assets/images/splash2.png'),
                   fit: BoxFit.cover,
                 ),
               ),
             ),
 
             Text(
-              "Selamat datang di Aplikasi UTS Mobile Development!",
+              "Selamat datang di Aplikasi UTS Mobile Development 2!",
               style: TextStyle(
                 fontSize: 30,
                 fontWeight: FontWeight.bold,
@@ -37,7 +37,7 @@ class SplashScreen2 extends StatelessWidget {
             SizedBox(height: 10),
 
             Text(
-              "Lupa membawa dompet?",
+              "Jangan khawatir, kami siap membantu!",
               style: TextStyle(
                 fontSize: 20,
                 color: const Color.fromARGB(255, 0, 0, 0),
@@ -55,7 +55,7 @@ class SplashScreen2 extends StatelessWidget {
                   height: 10,
                   decoration: const BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Colors.pink,
+                    color: Colors.grey,
                   ),
                 ),
 
@@ -77,7 +77,7 @@ class SplashScreen2 extends StatelessWidget {
                   height: 10,
                   decoration: const BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Colors.pink,
+                    color: Colors.grey,
                   ),
                 ),
               ],
@@ -94,7 +94,7 @@ class SplashScreen2 extends StatelessWidget {
                   onPressed: () {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => SplashScreen2()),
+                      MaterialPageRoute(builder: (context) => SplashScreen3()),
                     );
                   },
                   style: ElevatedButton.styleFrom(backgroundColor: Colors.pink),

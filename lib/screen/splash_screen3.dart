@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:uts_mobiledev/screen/splash_screen2.dart';
+import 'package:uts_mobiledev/login.dart';
 
 class SplashScreen3 extends StatelessWidget {
   const SplashScreen3({super.key});
@@ -19,7 +19,7 @@ class SplashScreen3 extends StatelessWidget {
                 shape: BoxShape.circle,
                 color: Colors.pink,
                 image: DecorationImage(
-                  image: AssetImage('assets/images/splash1.png'),
+                  image: AssetImage('assets/images/splash3.png'),
                   fit: BoxFit.cover,
                 ),
               ),
@@ -55,7 +55,7 @@ class SplashScreen3 extends StatelessWidget {
                   height: 10,
                   decoration: const BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Colors.pink,
+                    color: Colors.grey,
                   ),
                 ),
 
@@ -66,7 +66,7 @@ class SplashScreen3 extends StatelessWidget {
                   height: 10,
                   decoration: const BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Colors.pink,
+                    color: Colors.grey,
                   ),
                 ),
 
@@ -94,7 +94,7 @@ class SplashScreen3 extends StatelessWidget {
                   onPressed: () {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => SplashScreen2()),
+                      MaterialPageRoute(builder: (context) => Login()),
                     );
                   },
                   style: ElevatedButton.styleFrom(backgroundColor: Colors.pink),
