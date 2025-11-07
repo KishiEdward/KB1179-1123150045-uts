@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:uts_mobiledev/screen/splash_screen2.dart';
 
-class SplashScreen1 extends StatelessWidget {
-  const SplashScreen1({super.key});
+class SplashScreen2 extends StatelessWidget {
+  const SplashScreen2({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -26,7 +26,7 @@ class SplashScreen1 extends StatelessWidget {
             ),
 
             Text(
-              "Selamat datang di Aplikasi UTS Mobile Development!",
+              "Selamat datang di Aplikasi UTS Mobile Development 2!",
               style: TextStyle(
                 fontSize: 30,
                 fontWeight: FontWeight.bold,
