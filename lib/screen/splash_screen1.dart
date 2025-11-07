@@ -23,6 +23,78 @@ class SplashScreen1 extends StatelessWidget {
                 ),
               ),
             ),
+
+            Text(
+              "Selamat datang di Aplikasi UTS Mobile Development!",
+              style: TextStyle(
+                fontSize: 30,
+                fontWeight: FontWeight.bold,
+                color: const Color.fromARGB(255, 0, 0, 0),
+              ),
+            ),
+
+            SizedBox(height: 10),
+
+            Text(
+              "Lupa membawa dompet?",
+              style: TextStyle(
+                fontSize: 20,
+                color: const Color.fromARGB(255, 0, 0, 0),
+              ),
+            ),
+
+            SizedBox(height: 20),
+
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                Container(
+                  width: 10,
+                  height: 10,
+                  decoration: const BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: Colors.pink,
+                  ),
+                ),
+
+                SizedBox(width: 5),
+
+                Container(
+                  width: 10,
+                  height: 10,
+                  decoration: const BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: Colors.pink,
+                  ),
+                ),
+
+                SizedBox(width: 20),
+
+                Container(
+                  margin: EdgeInsets.symmetric(horizontal: 50),
+                  child: SizedBox(
+                    height: 50,
+                    width: double.infinity,
+                    child: ElevatedButton(
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => SplashScreen2()),
+                        );
+                      },
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: Color(0xFF4CAF50),
+                      ),
+                      child: Text(
+                        "continue",
+                        style: TextStyle(fontSize: 14, color: Colors.white),
+                      ),
+                    ),
+                  ),
+                ),
+              ],
+            ),
           ],
         ),
       ),
