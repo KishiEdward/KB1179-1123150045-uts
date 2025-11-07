@@ -19,6 +19,15 @@ class Login extends StatelessWidget {
                 size: 100,
                 color: Colors.pink,
               ),
+              SizedBox(height: 20),
+              Text(
+                "Halaman login",
+                style: TextStyle(
+                  fontSize: 30,
+                  fontWeight: FontWeight.bold,
+                  color: const Color.fromARGB(255, 0, 0, 0),
+                ),
+              )
             ],
           ),
         ),
