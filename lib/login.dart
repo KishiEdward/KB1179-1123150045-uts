@@ -14,7 +14,11 @@ class Login extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               SizedBox(height: 10),
-              
+              Icon(
+                Icons.lock,
+                size: 100,
+                color: Colors.pink,
+              ),
             ],
           ),
         ),
