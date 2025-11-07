@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:uts_mobiledev/login.dart';
 
 class SplashScreen1 extends StatelessWidget {
   const SplashScreen1({super.key});
@@ -84,7 +85,7 @@ class SplashScreen1 extends StatelessWidget {
                         );
                       },
                       style: ElevatedButton.styleFrom(
-                        backgroundColor: Color(0xFF4CAF50),
+                        backgroundColor: Colors.pink,
                       ),
                       child: Text(
                         "continue",
