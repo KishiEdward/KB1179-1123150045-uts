@@ -37,7 +37,7 @@ class SplashScreen3 extends StatelessWidget {
             SizedBox(height: 10),
 
             Text(
-              "Lupa membawa dompet?",
+              "Ayo coba login sekarang!",
               style: TextStyle(
                 fontSize: 20,
                 color: const Color.fromARGB(255, 0, 0, 0),
@@ -99,7 +99,7 @@ class SplashScreen3 extends StatelessWidget {
                   },
                   style: ElevatedButton.styleFrom(backgroundColor: Colors.pink),
                   child: Text(
-                    "continue",
+                    "login",
                     style: TextStyle(fontSize: 14, color: Colors.white),
                   ),
                 ),
