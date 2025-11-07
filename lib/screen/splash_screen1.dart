@@ -37,7 +37,7 @@ class SplashScreen1 extends StatelessWidget {
             SizedBox(height: 10),
 
             Text(
-              "Lupa membawa dompet?",
+              "Harimu akan lebih baik bersama kami!",
               style: TextStyle(
                 fontSize: 20,
                 color: const Color.fromARGB(255, 0, 0, 0),
