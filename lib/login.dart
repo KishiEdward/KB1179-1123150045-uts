@@ -14,11 +14,7 @@ class Login extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               SizedBox(height: 10),
-              Icon(
-                Icons.lock,
-                size: 100,
-                color: Colors.pink,
-              ),
+              Icon(Icons.lock, size: 100, color: Colors.pink),
               SizedBox(height: 20),
               Text(
                 "Halaman login",
@@ -27,11 +23,28 @@ class Login extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                   color: const Color.fromARGB(255, 0, 0, 0),
                 ),
-              )
+              ),
+              Text(
+                "Silakan masukkan kredensial Anda untuk melanjutkan.",
+                style: TextStyle(
+                  fontSize: 20,
+                  color: const Color.fromARGB(255, 0, 0, 0),
+                ),
+              ),
+              SizedBox(height: 20),
+              TextField(
+                keyboardType: TextInputType.emailAddress,
+                decoration: InputDecoration(
+                  labelText: 'Email',
+                  hintText: 'Masukkan email Anda',
+                  prefixIcon: Icon(Icons.email_outlined),
+                  border: OutlineInputBorder(),
+                ),
+              ),
             ],
           ),
         ),
-      )
+      ),
     );
   }
 }
