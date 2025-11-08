@@ -105,7 +105,6 @@ class Login extends StatelessWidget {
                   Expanded(
                     child: Divider(
                       color: Colors.grey,
-                      thickness: 1,
                     ),
                   ),
                   Padding(
@@ -115,12 +114,12 @@ class Login extends StatelessWidget {
                       style: TextStyle(color: Colors.grey),
                     ),
                   ),
-                  Expanded(child: Divider(color: Colors.grey[300])),
+                  Expanded(child: Divider(color: Colors.grey)),
                 ],
               ),
               OutlinedButton.icon(
                 onPressed: (){},
-                icon: Icon(Icons.g_mobiledata, color: Colors.grey, size: 24),
+                icon: Icon(Icons.g_mobiledata_rounded, color: Colors.grey, size: 24),
                 label: Text(
                   'Login dengan Google',
                   style: TextStyle(color: Colors.grey, fontSize: 16),

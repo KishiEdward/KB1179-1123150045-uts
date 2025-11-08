@@ -26,7 +26,7 @@ class SplashScreen3 extends StatelessWidget {
             ),
 
             Text(
-              "Selamat datang di Aplikasi UTS Mobile Development!",
+              "Semoga harimu menyenangkan!",
               style: TextStyle(
                 fontSize: 30,
                 fontWeight: FontWeight.bold,
