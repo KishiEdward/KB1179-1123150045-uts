@@ -105,6 +105,14 @@ class SplashScreen1 extends StatelessWidget {
                 ),
               ),
             ),
+            SizedBox(height: 20),
+            Text(
+              "NIM : 1123150045",
+              style: TextStyle(
+                fontSize: 12,
+                color: Colors.grey,
+              ),
+            ),
           ],
         ),
       ),

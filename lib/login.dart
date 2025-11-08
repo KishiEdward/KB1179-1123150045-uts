@@ -132,7 +132,15 @@ class Login extends StatelessWidget {
                     borderRadius: BorderRadius.all(Radius.circular(12.0)),
                   ),
                 ),
-              )
+              ),
+              SizedBox(height: 20),
+              Text(
+                "NIM : 1123150045",
+                style: TextStyle(
+                  fontSize: 12,
+                  color: Colors.grey,
+                ),
+              ),
             ],
           ),
         ),
